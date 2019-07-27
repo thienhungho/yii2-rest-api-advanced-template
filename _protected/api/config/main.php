@@ -46,4 +46,9 @@ return [
         */
     ],
     'params' => $params,
+    'modules' => [
+        'v1' => [
+            'class' => 'api\modules\v1\APIV1',
+        ],
+    ],
 ];
